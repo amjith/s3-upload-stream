@@ -247,7 +247,7 @@ The following configuration tuning can help prevent errors when using less relia
 
 ```js
 var AWS = require('aws-sdk');
-AWS.config.httpOptions = {timeout: 5000};
+AWS.config.httpOptions = {timeout: 5000}; // in milliseconds
 ```
 
 ### Installation
